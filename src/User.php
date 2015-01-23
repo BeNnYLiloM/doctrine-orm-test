@@ -51,4 +51,9 @@ class User
     {
         return $this->status;
     }
+
+    public function setUserStatus($status)
+    {
+        $this->status = $status;
+    }
 }
